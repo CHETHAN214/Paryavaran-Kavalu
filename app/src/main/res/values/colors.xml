@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_deep">#0f4d2a</color>
+    <color name="green_main">#1a7a4a</color>
+    <color name="green_light">#2ecc71</color>
+    <color name="green_pale">#d4f5e2</color>
+    <color name="earth">#8b5e3c</color>
+    <color name="earth_light">#c4956a</color>
+    <color name="amber">#f39c12</color>
+    <color name="red">#e74c3c</color>
+    <color name="sky">#3498db</color>
+    <color name="white">#FFFFFF</color>
+    <color name="off_white">#f8fdf9</color>
+    <color name="gray_light">#ecf0f1</color>
+    <color name="gray">#95a5a6</color>
+    <color name="gray_dark">#2c3e50</color>
+    <color name="text_dark">#1a2e1f</color>
+    <color name="text_muted">#627a6b</color>
+    <color name="border_light">#e8f4ed</color>
+    <color name="rank_gold">#f1c40f</color>
+    <color name="rank_silver">#bdc3c7</color>
+    <color name="rank_bronze">#e67e22</color>
+    <color name="status_pending_bg">#fde8e6</color>
+    <color name="status_cleaned_bg">#d4f5e2</color>
+    <color name="colorPrimary">#1a7a4a</color>
+    <color name="colorPrimaryVariant">#0f4d2a</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+</resources>

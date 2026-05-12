@@ -1,0 +1,2 @@
+-keep class com.paryavaran.kavalu.data.** { *; }
+-keepclassmembers class com.paryavaran.kavalu.data.** { *; }

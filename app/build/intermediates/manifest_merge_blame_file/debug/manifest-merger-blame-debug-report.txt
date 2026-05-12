@@ -1,0 +1,234 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.paryavaran.kavalu"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:6:5-81
+13-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:7:5-65
+14-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:7:22-62
+15    <uses-permission
+15-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:8:5-9:38
+16        android:name="android.permission.READ_EXTERNAL_STORAGE"
+16-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:8:22-77
+17        android:maxSdkVersion="32" />
+17-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:9:9-35
+18    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+18-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:10:5-76
+18-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:10:22-73
+19
+20    <uses-feature
+20-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:12:5-85
+21        android:name="android.hardware.camera"
+21-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:12:19-57
+22        android:required="false" />
+22-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:12:58-82
+23    <!-- Include required permissions for Google Maps API to run. -->
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\b5f900209a798151c5a51af868990fe6\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+24-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\b5f900209a798151c5a51af868990fe6\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+25
+26    <uses-feature
+26-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\b5f900209a798151c5a51af868990fe6\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+27        android:glEsVersion="0x00020000"
+27-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\b5f900209a798151c5a51af868990fe6\transformed\play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+28        android:required="true" />
+28-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\b5f900209a798151c5a51af868990fe6\transformed\play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+29
+30    <queries>
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\b5f900209a798151c5a51af868990fe6\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+31
+32        <!-- Needs to be explicitly declared on Android R+ -->
+33        <package android:name="com.google.android.apps.maps" />
+33-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\b5f900209a798151c5a51af868990fe6\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+33-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\b5f900209a798151c5a51af868990fe6\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+34    </queries>
+35
+36    <permission
+36-->[androidx.core:core:1.12.0] C:\Users\Chethan\.gradle\caches\transforms-3\83c3abf2779746bcacd076bcea1d5914\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+37        android:name="com.paryavaran.kavalu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+37-->[androidx.core:core:1.12.0] C:\Users\Chethan\.gradle\caches\transforms-3\83c3abf2779746bcacd076bcea1d5914\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+38        android:protectionLevel="signature" />
+38-->[androidx.core:core:1.12.0] C:\Users\Chethan\.gradle\caches\transforms-3\83c3abf2779746bcacd076bcea1d5914\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+39
+40    <uses-permission android:name="com.paryavaran.kavalu.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+40-->[androidx.core:core:1.12.0] C:\Users\Chethan\.gradle\caches\transforms-3\83c3abf2779746bcacd076bcea1d5914\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+40-->[androidx.core:core:1.12.0] C:\Users\Chethan\.gradle\caches\transforms-3\83c3abf2779746bcacd076bcea1d5914\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+41
+42    <application
+42-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:14:5-52:19
+43        android:allowBackup="true"
+43-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:15:9-35
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.12.0] C:\Users\Chethan\.gradle\caches\transforms-3\83c3abf2779746bcacd076bcea1d5914\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+45        android:debuggable="true"
+46        android:extractNativeLibs="false"
+47        android:icon="@mipmap/ic_launcher"
+47-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:16:9-43
+48        android:label="@string/app_name"
+48-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:17:9-41
+49        android:roundIcon="@mipmap/ic_launcher_round"
+49-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:18:9-54
+50        android:supportsRtl="true"
+50-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:19:9-35
+51        android:testOnly="true"
+52        android:theme="@style/Theme.ParyavaranKavalu" >
+52-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:20:9-54
+53
+54        <!-- Google Maps API Key -->
+55        <meta-data
+56            android:name="com.google.android.geo.API_KEY"
+56-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:24:13-58
+57            android:value="AIzaSyBLcGDDCVU7lMppdYcS7ouwFYYwutFIbJo" />
+57-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:25:13-42
+58
+59        <activity
+59-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:27:9-35:20
+60            android:name="com.paryavaran.kavalu.SplashActivity"
+60-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:28:13-43
+61            android:exported="true"
+61-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:29:13-36
+62            android:theme="@style/Theme.ParyavaranKavalu.Splash" >
+62-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:30:13-65
+63            <intent-filter>
+63-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:31:13-34:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:32:17-69
+64-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:32:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:33:17-77
+66-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:33:27-74
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:37:9-40:58
+70            android:name="com.paryavaran.kavalu.MainActivity"
+70-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:38:13-41
+71            android:exported="false"
+71-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:39:13-37
+72            android:windowSoftInputMode="adjustResize" />
+72-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:40:13-55
+73
+74        <provider
+75            android:name="androidx.core.content.FileProvider"
+75-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:43:13-62
+76            android:authorities="com.paryavaran.kavalu.fileprovider"
+76-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:44:13-64
+77            android:exported="false"
+77-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:45:13-37
+78            android:grantUriPermissions="true" >
+78-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:46:13-47
+79            <meta-data
+79-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:47:13-49:54
+80                android:name="android.support.FILE_PROVIDER_PATHS"
+80-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:48:17-67
+81                android:resource="@xml/file_paths" />
+81-->C:\Users\Chethan\Downloads\ParyavaranKavalu_Android\ParyavaranKavalu\app\src\main\AndroidManifest.xml:49:17-51
+82        </provider>
+83
+84        <!-- Needs to be explicitly declared on P+ -->
+85        <uses-library
+85-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\b5f900209a798151c5a51af868990fe6\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+86            android:name="org.apache.http.legacy"
+86-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\b5f900209a798151c5a51af868990fe6\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+87            android:required="false" />
+87-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\b5f900209a798151c5a51af868990fe6\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+88
+89        <activity
+89-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Chethan\.gradle\caches\transforms-3\091715df75ae9eb3c9469097eb491adf\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Chethan\.gradle\caches\transforms-3\091715df75ae9eb3c9469097eb491adf\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Chethan\.gradle\caches\transforms-3\091715df75ae9eb3c9469097eb491adf\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Chethan\.gradle\caches\transforms-3\091715df75ae9eb3c9469097eb491adf\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Chethan\.gradle\caches\transforms-3\b20c38b633f8c281aeb4285c8d9389a7\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Chethan\.gradle\caches\transforms-3\b20c38b633f8c281aeb4285c8d9389a7\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Chethan\.gradle\caches\transforms-3\b20c38b633f8c281aeb4285c8d9389a7\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+97
+98        <provider
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\6c4de079ba721016547cec16b90fe58b\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+99            android:name="androidx.startup.InitializationProvider"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\6c4de079ba721016547cec16b90fe58b\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+100            android:authorities="com.paryavaran.kavalu.androidx-startup"
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\6c4de079ba721016547cec16b90fe58b\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+101            android:exported="false" >
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\6c4de079ba721016547cec16b90fe58b\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+102            <meta-data
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\6c4de079ba721016547cec16b90fe58b\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\6c4de079ba721016547cec16b90fe58b\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+104                android:value="androidx.startup" />
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Chethan\.gradle\caches\transforms-3\6c4de079ba721016547cec16b90fe58b\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+105            <meta-data
+105-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Chethan\.gradle\caches\transforms-3\97bb3d07f0c5c01f5bd10c7bc6cbeee4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+106-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Chethan\.gradle\caches\transforms-3\97bb3d07f0c5c01f5bd10c7bc6cbeee4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+107                android:value="androidx.startup" />
+107-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Chethan\.gradle\caches\transforms-3\97bb3d07f0c5c01f5bd10c7bc6cbeee4\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+108            <meta-data
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+110                android:value="androidx.startup" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+111        </provider>
+112
+113        <receiver
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+114            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+115            android:directBootAware="false"
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+116            android:enabled="true"
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+117            android:exported="true"
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+118            android:permission="android.permission.DUMP" >
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+120                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+123                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+126                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+129                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Chethan\.gradle\caches\transforms-3\84b442a57e4da53462d4a085b2efb349\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+130            </intent-filter>
+131        </receiver>
+132    </application>
+133
+134</manifest>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ParyavaranKavalu" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/green_main</item>
+        <item name="colorPrimaryVariant">@color/green_deep</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/green_light</item>
+        <item name="colorSecondaryVariant">@color/green_pale</item>
+        <item name="android:statusBarColor">@color/green_deep</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.ParyavaranKavalu.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/green_deep</item>
+        <item name="android:navigationBarColor">@color/green_main</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- TAB BUTTON -->
+    <style name="Widget.ParyavaranKavalu.TabButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:background">@drawable/selector_tab_btn</item>
+        <item name="android:textColor">@drawable/selector_tab_text</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="rippleColor">@color/green_pale</item>
+    </style>
+
+    <!-- PRIMARY BUTTON -->
+    <style name="Widget.ParyavaranKavalu.PrimaryButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/bg_primary_btn</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="elevation">4dp</item>
+    </style>
+
+    <!-- WASTE CHIP -->
+    <style name="Widget.ParyavaranKavalu.WasteChip" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:background">@drawable/selector_waste_chip</item>
+        <item name="android:textColor">@drawable/selector_waste_chip_text</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="strokeColor">@color/border_light</item>
+    </style>
+
+    <!-- SEVERITY BUTTON -->
+    <style name="Widget.ParyavaranKavalu.SeverityButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:background">@drawable/selector_severity_btn</item>
+        <item name="android:textColor">@color/text_muted</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- GPS BUTTON -->
+    <style name="Widget.ParyavaranKavalu.GpsButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/bg_gps_btn</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- MARK CLEANED BUTTON -->
+    <style name="Widget.ParyavaranKavalu.MarkCleanedButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:background">@drawable/bg_mark_cleaned_btn</item>
+        <item name="android:textColor">@color/green_main</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+</resources>

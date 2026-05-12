@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paryavaran-Kavalu</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_report">Report</string>
+    <string name="tab_map">Map</string>
+    <string name="tab_karma">Karma</string>
+    <string name="submit_report">📤 Submit Report</string>
+    <string name="get_gps">Get GPS</string>
+    <string name="mark_cleaned">✓ Mark Cleaned</string>
+</resources>

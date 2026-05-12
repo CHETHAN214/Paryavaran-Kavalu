@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/off_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- FORM CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_form_card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🚨 Report Waste Blackspot"
+                android:textColor="@color/text_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="20dp"
+                android:text="Help keep your community clean. Your report makes a difference."
+                android:textColor="@color/text_muted"
+                android:textSize="13sp" />
+
+            <!-- PHOTO -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📸 Photo Evidence *"
+                android:textColor="@color/text_dark"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="6dp" />
+
+            <FrameLayout
+                android:id="@+id/layout_photo_drop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_photo_drop"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="24dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📷"
+                        android:textSize="32sp"
+                        android:layout_marginBottom="8dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tap to capture or upload a photo"
+                        android:textColor="@color/text_muted"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Auto-compressed to under 500KB"
+                        android:textColor="@color/gray"
+                        android:textSize="11sp"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/iv_photo_preview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:visibility="gone"
+                android:contentDescription="Photo preview" />
+
+            <!-- WASTE TYPE -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🗑️ Waste Type *"
+                android:textColor="@color/text_dark"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="6dp" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:useDefaultMargins="false">
+
+                <Button android:id="@+id/chip_household"
+                    style="@style/Widget.ParyavaranKavalu.WasteChip"
+                    android:layout_width="0dp" android:layout_columnWeight="1" android:layout_margin="4dp"
+                    android:text="🏠\nHousehold" />
+
+                <Button android:id="@+id/chip_plastic"
+                    style="@style/Widget.ParyavaranKavalu.WasteChip"
+                    android:layout_width="0dp" android:layout_columnWeight="1" android:layout_margin="4dp"
+                    android:text="♻️\nPlastic" />
+
+                <Button android:id="@+id/chip_debris"
+                    style="@style/Widget.ParyavaranKavalu.WasteChip"
+                    android:layout_width="0dp" android:layout_columnWeight="1" android:layout_margin="4dp"
+                    android:text="🧱\nDebris" />
+
+                <Button android:id="@+id/chip_biomedical"
+                    style="@style/Widget.ParyavaranKavalu.WasteChip"
+                    android:layout_width="0dp" android:layout_columnWeight="1" android:layout_margin="4dp"
+                    android:text="⚕️\nBio-Medical" />
+
+                <Button android:id="@+id/chip_ewaste"
+                    style="@style/Widget.ParyavaranKavalu.WasteChip"
+                    android:layout_width="0dp" android:layout_columnWeight="1" android:layout_margin="4dp"
+                    android:text="📱\nE-Waste" />
+
+                <Button android:id="@+id/chip_mixed"
+                    style="@style/Widget.ParyavaranKavalu.WasteChip"
+                    android:layout_width="0dp" android:layout_columnWeight="1" android:layout_margin="4dp"
+                    android:text="🗂️\nMixed" />
+            </GridLayout>
+
+            <!-- SEVERITY -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⚠️ Severity Level"
+                android:textColor="@color/text_dark"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="6dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button android:id="@+id/btn_sev_low"
+                    style="@style/Widget.ParyavaranKavalu.SeverityButton"
+                    android:layout_width="0dp" android:layout_height="60dp"
+                    android:layout_weight="1" android:layout_marginEnd="4dp"
+                    android:text="🟢 Low"
+                    android:tag="low" />
+
+                <Button android:id="@+id/btn_sev_medium"
+                    style="@style/Widget.ParyavaranKavalu.SeverityButton"
+                    android:layout_width="0dp" android:layout_height="60dp"
+                    android:layout_weight="1" android:layout_marginStart="4dp" android:layout_marginEnd="4dp"
+                    android:text="🟡 Medium"
+                    android:tag="medium" />
+
+                <Button android:id="@+id/btn_sev_high"
+                    style="@style/Widget.ParyavaranKavalu.SeverityButton"
+                    android:layout_width="0dp" android:layout_height="60dp"
+                    android:layout_weight="1" android:layout_marginStart="4dp"
+                    android:text="🔴 High"
+                    android:tag="high" />
+            </LinearLayout>
+
+            <!-- GPS LOCATION -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📍 GPS Location *"
+                android:textColor="@color/text_dark"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="6dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_location_box"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="14dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🌐"
+                    android:textSize="24sp"
+                    android:layout_marginEnd="12dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_loc_coords"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Not captured yet"
+                        android:textColor="@color/green_deep"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:fontFamily="monospace" />
+
+                    <TextView
+                        android:id="@+id/tv_loc_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_muted"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_get_gps"
+                    style="@style/Widget.ParyavaranKavalu.GpsButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Get GPS" />
+            </LinearLayout>
+
+            <!-- DESCRIPTION -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📝 Description"
+                android:textColor="@color/text_dark"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="18dp"
+                android:layout_marginBottom="6dp" />
+
+            <EditText
+                android:id="@+id/et_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_text_field"
+                android:hint="Describe the location, size, and any additional details..."
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:padding="12dp"
+                android:textColor="@color/text_dark"
+                android:textColorHint="@color/text_muted"
+                android:textSize="14sp" />
+
+            <!-- SUBMIT -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    style="@style/Widget.ParyavaranKavalu.PrimaryButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:clickable="false"
+                    android:focusable="false">
+
+                    <ProgressBar
+                        android:id="@+id/progress_submit"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginEnd="8dp"
+                        android:indeterminateTint="@color/white"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_submit_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📤 Submit Report"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:clickable="false"
+                        android:focusable="false" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
